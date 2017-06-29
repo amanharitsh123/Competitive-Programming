@@ -94,7 +94,7 @@
              return 1+max(height(cur->left),height(cur->right));
            }
            void dia()
-           { int d;
+           { //int d;
             // cout<<"here";
              //cout<<height(&root)<<endl;
              cout<<diameter(&root)<<endl;
